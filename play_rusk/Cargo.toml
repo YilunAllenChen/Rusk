@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 rusk = { path = "../rusk"}
 polars = { git = "https://github.com/pola-rs/polars"}
+polars-core = "0.24.3"
+polars-io = { version = "0.24.3", features = ['parquet', 'fmt']}
